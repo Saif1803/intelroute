@@ -12,14 +12,14 @@
     "fuzzy-matching",
     "seo"
   ],
-  "homepage": "https://github.com/saif1803/intelroute/tree/main/packages/core#readme",
-  "bugs": "https://github.com/saif1803/intelroute/issues",
+  "homepage": "https://github.com/Saif1803/intelroute/tree/main/packages/core#readme",
+  "bugs": "https://github.com/Saif1803/intelroute/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saif1803/intelroute.git",
+    "url": "git+https://github.com/Saif1803/intelroute.git",
     "directory": "packages/core"
   },
-  "author": "saif1803 (https://github.com/saif1803)",
+  "author": "Saif1803 (https://github.com/Saif1803)",
   "engines": {
     "node": ">=20"
   },

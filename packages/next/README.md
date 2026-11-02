@@ -1,6 +1,6 @@
 # @intelroute/next
 
-Next.js integration for [IntelRoute](https://github.com/saif1803/intelroute): automatic recovery of mistyped and outdated URLs.
+Next.js integration for [IntelRoute](https://github.com/Saif1803/intelroute): automatic recovery of mistyped and outdated URLs.
 
 ```
 /abuot                 → 307 /about
@@ -16,7 +16,7 @@ npm install @intelroute/next
 npx intelroute discover --sitemap public/sitemap.xml
 ```
 
-Then add the proxy and a `not-found` page. The [quick start in the main README](https://github.com/saif1803/intelroute#quick-start-nextjs) walks through all five steps.
+Then add the proxy and a `not-found` page. The [quick start in the main README](https://github.com/Saif1803/intelroute#quick-start-nextjs) walks through all five steps.
 
 ## What's included
 

@@ -6,7 +6,7 @@ IntelRoute runs in front of every request to your site and can send visitors to 
 
 **Please don't open a public issue.** Report it privately through GitHub instead:
 
-1. Go to the [Security tab](https://github.com/saif1803/intelroute/security) of this repository.
+1. Go to the [Security tab](https://github.com/Saif1803/intelroute/security) of this repository.
 2. Click **Report a vulnerability**.
 
 Include the IntelRoute version, your configuration (routes, redirects, exclusions), the request that triggers the problem, and what happens.

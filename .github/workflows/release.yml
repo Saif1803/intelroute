@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   release:
-    if: github.repository == 'saif1803/intelroute'
+    if: github.repository == 'Saif1803/intelroute'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

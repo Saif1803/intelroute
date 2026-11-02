@@ -1,6 +1,6 @@
 # IntelRoute
 
-[![CI](https://github.com/saif1803/intelroute/actions/workflows/ci.yml/badge.svg)](https://github.com/saif1803/intelroute/actions/workflows/ci.yml)
+[![CI](https://github.com/Saif1803/intelroute/actions/workflows/ci.yml/badge.svg)](https://github.com/Saif1803/intelroute/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/@intelroute/next)](https://www.npmjs.com/package/@intelroute/next)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
@@ -188,7 +188,7 @@ npm run dev -w intelroute-example-next   # demo on http://localhost:3100
 
 ## Contributing
 
-Found a URL IntelRoute got wrong? [Open a "Wrong decision" issue](https://github.com/saif1803/intelroute/issues/new?template=wrong-decision.yml); each one becomes a test case. For code changes, see [CONTRIBUTING.md](CONTRIBUTING.md). Please report security issues privately, as described in [SECURITY.md](SECURITY.md).
+Found a URL IntelRoute got wrong? [Open a "Wrong decision" issue](https://github.com/Saif1803/intelroute/issues/new?template=wrong-decision.yml); each one becomes a test case. For code changes, see [CONTRIBUTING.md](CONTRIBUTING.md). Please report security issues privately, as described in [SECURITY.md](SECURITY.md).
 
 ## License
 

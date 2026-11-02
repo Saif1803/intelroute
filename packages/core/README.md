@@ -1,6 +1,6 @@
 # @intelroute/core
 
-The framework-independent engine behind [IntelRoute](https://github.com/saif1803/intelroute). Give it the URL of a request that didn't match a route, and it decides whether to redirect, suggest pages, or leave the 404 alone.
+The framework-independent engine behind [IntelRoute](https://github.com/Saif1803/intelroute). Give it the URL of a request that didn't match a route, and it decides whether to redirect, suggest pages, or leave the 404 alone.
 
 No dependencies, no network calls, no AI. It runs in Node, edge runtimes and browsers.
 
@@ -33,7 +33,7 @@ if (d.action === "redirect") return res.redirect(engine.redirectStatus, d.destin
 
 Using Next.js? Install [`@intelroute/next`](https://www.npmjs.com/package/@intelroute/next) instead, which wraps this engine in a proxy/middleware.
 
-See the [main README](https://github.com/saif1803/intelroute#readme) for how decisions are made and every configuration option.
+See the [main README](https://github.com/Saif1803/intelroute#readme) for how decisions are made and every configuration option.
 
 ## License
 

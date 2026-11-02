@@ -4,7 +4,7 @@ Thanks for helping. The most useful contribution is often the simplest: a URL th
 
 ## Reporting a wrong decision
 
-If IntelRoute redirected somewhere it shouldn't have, missed an obvious recovery, or suggested the wrong pages, [open a "Wrong decision" issue](https://github.com/saif1803/intelroute/issues/new?template=wrong-decision.yml). Include:
+If IntelRoute redirected somewhere it shouldn't have, missed an obvious recovery, or suggested the wrong pages, [open a "Wrong decision" issue](https://github.com/Saif1803/intelroute/issues/new?template=wrong-decision.yml). Include:
 
 - the requested URL
 - what IntelRoute did (the `reason` field of the decision helps a lot)
@@ -18,7 +18,7 @@ Each report becomes a test case, so the fix stays fixed.
 You need Node.js 20 or later.
 
 ```bash
-git clone https://github.com/saif1803/intelroute.git
+git clone https://github.com/Saif1803/intelroute.git
 cd intelroute
 npm install
 npm run build
