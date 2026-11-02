@@ -1,0 +1,11 @@
+export { createIntelRoute, IntelRoute, DEFAULT_EXCLUSIONS } from "./engine.js";
+export type { IntelRouteConfig, ResolveContext, Thresholds } from "./engine.js";
+export { MemoryCache } from "./cache.js";
+export { MemoryAnalytics } from "./analytics.js";
+export type { AnalyticsSummary } from "./analytics.js";
+export { normalizeUrl, normalizeSegment, splitUrl, tokenize } from "./normalize.js";
+export type { NormalizeOptions } from "./normalize.js";
+export { RouteIndex, parsePattern, buildPath } from "./routes.js";
+export { alignSegments, findCandidates } from "./matcher.js";
+export { editDistance, stringSimilarity, jaroWinkler, typoSimilarity, DEFAULT_SYNONYMS, SynonymTable } from "./similarity.js";
+export type * from "./types.js";

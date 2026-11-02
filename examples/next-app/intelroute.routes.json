@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-11-01T14:59:48.595Z",
+  "routes": [
+    {
+      "path": "/"
+    },
+    {
+      "path": "/about",
+      "title": "About us",
+      "description": "The team and story behind Acme."
+    },
+    {
+      "path": "/account/password-reset",
+      "title": "Reset your password",
+      "description": "Forgot your password? Request a reset link."
+    },
+    {
+      "path": "/blog",
+      "title": "Blog",
+      "description": "Articles about routing and the web."
+    },
+    {
+      "path": "/blog/[slug]",
+      "knownPaths": [
+        "/blog/hello-world",
+        "/blog/nextjs-routing-guide",
+        "/blog/understanding-404-errors"
+      ]
+    },
+    {
+      "path": "/contact",
+      "title": "Contact us",
+      "description": "Get in touch with sales or support."
+    },
+    {
+      "path": "/docs/[...slug]",
+      "title": "Documentation",
+      "description": "Guides and API reference."
+    },
+    {
+      "path": "/insights",
+      "title": "IntelRoute insights",
+      "description": "Recovered and unresolved URLs."
+    },
+    {
+      "path": "/login",
+      "title": "Log in",
+      "description": "Sign in to your Acme account."
+    },
+    {
+      "path": "/pricing",
+      "title": "Pricing and plans",
+      "description": "Compare the Free, Pro and Enterprise plans."
+    }
+  ]
+}

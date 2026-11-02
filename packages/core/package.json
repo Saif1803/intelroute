@@ -1,0 +1,20 @@
+{
+  "name": "@intelroute/core",
+  "version": "0.1.0",
+  "description": "Intelligent URL recovery and routing engine: normalization, fuzzy and semantic matching, AI judgment, confidence-based decisions.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "license": "MIT"
+}
