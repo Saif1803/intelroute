@@ -2,6 +2,28 @@
   "name": "@intelroute/next",
   "version": "0.1.0",
   "description": "Next.js integration for IntelRoute: middleware/proxy, route discovery and not-found suggestions.",
+  "keywords": [
+    "nextjs",
+    "next",
+    "middleware",
+    "proxy",
+    "redirect",
+    "404",
+    "not-found",
+    "typo",
+    "seo"
+  ],
+  "homepage": "https://github.com/saif1803/intelroute#readme",
+  "bugs": "https://github.com/saif1803/intelroute/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif1803/intelroute.git",
+    "directory": "packages/next"
+  },
+  "author": "saif1803 (https://github.com/saif1803)",
+  "engines": {
+    "node": ">=20"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

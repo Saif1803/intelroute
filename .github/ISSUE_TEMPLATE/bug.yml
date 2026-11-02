@@ -1,0 +1,36 @@
+name: Bug report
+description: Something is broken (a crash, a build error, the CLI, the Next.js integration).
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If IntelRoute picked the wrong page for a URL, use the **Wrong decision** template instead. For security issues, see SECURITY.md and report privately.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the full error message and stack trace if there is one.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The smallest setup that shows the problem. A link to a repository is ideal.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: IntelRoute packages, Next.js, Node.js, and the runtime (Node, Edge, Vercel, etc.).
+      placeholder: "@intelroute/next 0.1.0, next 16.0.1, node 22, Vercel Edge"
+    validations:
+      required: true

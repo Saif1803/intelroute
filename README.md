@@ -1,5 +1,9 @@
 # IntelRoute
 
+[![CI](https://github.com/saif1803/intelroute/actions/workflows/ci.yml/badge.svg)](https://github.com/saif1803/intelroute/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@intelroute/next)](https://www.npmjs.com/package/@intelroute/next)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 Intelligent URL recovery and routing. When a request doesn't match a route, IntelRoute works out where the visitor meant to go. If it's confident, it redirects; if a few pages are plausible, it suggests them; and if nothing fits, it leaves the normal 404 alone.
 
 ```
@@ -181,3 +185,11 @@ npm run build       # core, then next
 npm run typecheck
 npm run dev -w intelroute-example-next   # demo on http://localhost:3100
 ```
+
+## Contributing
+
+Found a URL IntelRoute got wrong? [Open a "Wrong decision" issue](https://github.com/saif1803/intelroute/issues/new?template=wrong-decision.yml); each one becomes a test case. For code changes, see [CONTRIBUTING.md](CONTRIBUTING.md). Please report security issues privately, as described in [SECURITY.md](SECURITY.md).
+
+## License
+
+[MIT](LICENSE)

@@ -1,7 +1,28 @@
 {
   "name": "@intelroute/core",
   "version": "0.1.0",
-  "description": "Intelligent URL recovery and routing engine: normalization, fuzzy and semantic matching, AI judgment, confidence-based decisions.",
+  "description": "Deterministic URL recovery engine: fixes typos and outdated URLs by redirecting, suggesting, or leaving the 404 alone. Zero dependencies.",
+  "keywords": [
+    "url",
+    "routing",
+    "redirect",
+    "404",
+    "not-found",
+    "typo",
+    "fuzzy-matching",
+    "seo"
+  ],
+  "homepage": "https://github.com/saif1803/intelroute/tree/main/packages/core#readme",
+  "bugs": "https://github.com/saif1803/intelroute/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif1803/intelroute.git",
+    "directory": "packages/core"
+  },
+  "author": "saif1803 (https://github.com/saif1803)",
+  "engines": {
+    "node": ">=20"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

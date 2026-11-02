@@ -2,6 +2,14 @@
   "name": "intelroute-monorepo",
   "private": true,
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saif1803/intelroute.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "workspaces": [
     "packages/*",
     "examples/*"
@@ -9,9 +17,13 @@
   "scripts": {
     "build": "npm run build -w @intelroute/core && npm run build -w @intelroute/next",
     "test": "vitest run",
-    "typecheck": "tsc -p packages/core --noEmit && tsc -p packages/next --noEmit"
+    "typecheck": "tsc -p packages/core --noEmit && tsc -p packages/next --noEmit",
+    "changeset": "changeset",
+    "version-packages": "changeset version && npm install --package-lock-only",
+    "release": "npm run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^3.0.3",
     "@types/node": "^22.15.0",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"

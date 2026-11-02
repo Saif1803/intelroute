@@ -1,0 +1,65 @@
+name: Wrong decision
+description: IntelRoute redirected, suggested, or gave up when it shouldn't have.
+title: "Wrong decision: "
+labels: ["matching"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Each of these becomes a test case. The `reason` field of the decision (from `engine.resolve()` or your analytics) is the most useful thing you can include.
+  - type: input
+    id: requested
+    attributes:
+      label: Requested URL
+      placeholder: /blgo/helo-world
+    validations:
+      required: true
+  - type: dropdown
+    id: actual-action
+    attributes:
+      label: What IntelRoute did
+      options:
+        - Redirected to the wrong page
+        - Redirected when it should have suggested or 404'd
+        - Suggested pages when it should have redirected
+        - Suggested the wrong pages
+        - Left a plain 404 when there was an obvious match
+        - Touched a URL it should have ignored
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Decision details
+      description: The destination or suggestions, plus `reason`, `confidence` and `stage` if you have them.
+      render: json
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: What you expected
+      placeholder: 307 to /blog/hello-world
+    validations:
+      required: true
+  - type: textarea
+    id: routes
+    attributes:
+      label: Relevant routes
+      description: The entries from `intelroute.routes.json` (or your `routes` config) for the expected page and any page it went to instead.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Non-default configuration
+      description: Thresholds, synonyms, redirects, normalization options, judge or semantic provider, if any.
+      render: ts
+  - type: input
+    id: version
+    attributes:
+      label: IntelRoute version
+      placeholder: "0.1.0"
+    validations:
+      required: true

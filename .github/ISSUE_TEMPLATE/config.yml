@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/saif1803/intelroute/discussions
+    about: Ask how to set something up, or share an idea before it's a feature request.
+  - name: Report a security vulnerability
+    url: https://github.com/saif1803/intelroute/security/advisories/new
+    about: Please report security issues privately, not as public issues.
