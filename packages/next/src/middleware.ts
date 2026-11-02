@@ -1,5 +1,7 @@
 import { createIntelRoute, type IntelRoute, type IntelRouteConfig, type RoutingDecision } from "@intelroute/core";
-import { NextResponse, type NextRequest } from "next/server";
+// The `.js` extensions are required: `next` has no `exports` map, so plain
+// Node ESM can't resolve "next/server" (bundlers resolve either form).
+import { NextResponse, type NextRequest } from "next/server.js";
 import { encodeDecisionHeaders, HEADER_PREFIX } from "./headers.js";
 
 export interface IntelRouteMiddlewareOptions {

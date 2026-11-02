@@ -1,4 +1,4 @@
-import { headers } from "next/headers";
+import { headers } from "next/headers.js"; // `.js` for plain Node ESM; see middleware.ts
 import { decodeDecisionHeaders, type IntelRouteNotFoundInfo } from "./headers.js";
 
 export type { IntelRouteNotFoundInfo } from "./headers.js";
